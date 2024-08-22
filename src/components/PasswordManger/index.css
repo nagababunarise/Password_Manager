@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: #9ba9eb;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+.logo-image {
+  height: 50px;
+  width: 150px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.password-manager-card {
+  background-color: #5763a5;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.password-card {
+  background-color: #454f84;
+  border-radius: 10px;
+  margin: 40px;
+  width: 50%;
+}
+.logo {
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+}
+.website-name {
+  height: 30px;
+  width: 100%;
+  border: 0px;
+  margin: 5px;
+  font-size: 15px;
+  color: black;
+}
+.input-card {
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.heading {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.password-image {
+  height: 320px;
+  width: 280px;
+  margin: 20px;
+}
+.button-card {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.button {
+  background-color: #0b69ff;
+  border: 0px;
+  border-radius: 5px;
+  height: 40px;
+  width: 80px;
+  margin: 10px;
+  color: white;
+  font-weight: 800;
+}
+.password-items-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.password-save-card {
+  background-color: #5763a5;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  width: 90%;
+  padding: 20px;
+}
+.search-card {
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+.input-search {
+  height: 20px;
+  width: 95%;
+  border: 0px;
+}
+.search-logo {
+  height: 20px;
+  width: 20px;
+}
+.check-box-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.check-box {
+  border: 0px;
+  margin: 5px;
+  height: 15px;
+  width: 15px;
+}
+.label-name {
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.no-password-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-password-image {
+  height: 300px;
+  width: 30%;
+  margin: 20px;
+}
